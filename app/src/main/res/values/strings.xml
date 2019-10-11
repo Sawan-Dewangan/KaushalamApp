@@ -1,3 +1,10 @@
 <resources>
     <string name="app_name">KaushalamApp</string>
+    <string name="text1">First Page</string>
+    <string name="text2">Go to Help Activity</string>
+    <string name="text3">Help</string>
+    <string name="help_email">Email</string>
+    <string name="help_call">Call</string>
+    <string name="help_Whatsapp">Whatsapp</string>
+    <string name="help_Faq">FAQs</string>
 </resources>

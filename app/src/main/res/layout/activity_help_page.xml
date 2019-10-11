@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/background_light"
+    tools:context=".Help_page">
+
+    <Button
+        android:id="@+id/btn_simple"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="24dp"
+        android:background="@android:color/transparent"
+        android:maxWidth="241dp"
+        android:maxHeight="174dp"
+        android:text="@string/help_email"
+        android:drawableTop="@drawable/ic_email_60dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <Button
+        android:id="@+id/btn_call"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="24dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginRight="0dp"
+        android:layout_marginLeft="0dp"
+        android:background="@android:color/transparent"
+        android:maxWidth="241dp"
+        android:maxHeight="174dp"
+        android:text="@string/help_call"
+        android:drawableTop="@drawable/ic_phone_call_60dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.1"
+        app:layout_constraintStart_toEndOf="@+id/btn_simple"
+        app:layout_constraintTop_toTopOf="@+id/guideline2" />
+
+    <Button
+        android:id="@+id/btn_whatsapp"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_marginTop="16dp"
+        android:background="@android:color/transparent"
+        android:maxWidth="241dp"
+        android:maxHeight="174dp"
+        android:text="@string/help_Whatsapp"
+        android:drawableTop="@drawable/ic_whatsapp_60dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintStart_toStartOf="@+id/guideline"
+        app:layout_constraintTop_toBottomOf="@+id/btn_simple" />
+
+    <Button
+        android:id="@+id/button_faq"
+        android:layout_width="160dp"
+        android:layout_height="133dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="24dp"
+        android:layout_marginLeft="0dp"
+        android:layout_marginRight="0dp"
+        android:background="@android:color/transparent"
+        android:maxWidth="241dp"
+        android:maxHeight="174dp"
+        android:text="@string/help_Faq"
+        android:drawableTop="@drawable/ic_faqs_60dp"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="16sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.109"
+        app:layout_constraintStart_toEndOf="@+id/btn_whatsapp"
+        app:layout_constraintTop_toBottomOf="@+id/btn_call" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="20dp" />
+
+    <android.support.constraint.Guideline
+        android:id="@+id/guideline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="20dp" />
+
+
+
+</android.support.constraint.ConstraintLayout>
