@@ -7,4 +7,8 @@
     <string name="help_call">Call</string>
     <string name="help_Whatsapp">Whatsapp</string>
     <string name="help_Faq">FAQs</string>
+    <string name="nav_1">Home</string>
+    <string name="nav_2">Setting</string>
+    <string name="nav_3">Profile</string>
+    <string name="nav_4">Help</string>
 </resources>

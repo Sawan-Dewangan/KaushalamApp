@@ -8,5 +8,17 @@
         <item name="colorAccent">@color/colorAccent</item>
     </style>
 
+    <style name="BottomNavigationView">
+        <item name="itemTextAppearanceActive">@style/Active</item>
+        <item name="itemTextAppearanceInactive">@style/Inactive</item>
+    </style>
+
+    <style name="Inactive">
+        <item name="android:textSize">12sp</item>
+    </style>
+    <style name="Active">
+        <item name="android:textSize">12sp</item>
+    </style>
+
 
 </resources>
