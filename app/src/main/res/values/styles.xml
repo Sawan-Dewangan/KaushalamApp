@@ -7,8 +7,8 @@
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
     </style>
-
-    <style name="BottomNavigationView">
+<!--Style for bottomNavigation -->
+        <style name="BottomNavigationView">
         <item name="itemTextAppearanceActive">@style/Active</item>
         <item name="itemTextAppearanceInactive">@style/Inactive</item>
     </style>
